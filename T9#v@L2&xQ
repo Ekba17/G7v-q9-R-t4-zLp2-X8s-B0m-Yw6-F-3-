@@ -3,6 +3,8 @@ local urls = {
     "",
     "",
     "",
+    "",
+    "",
     "https://raw.githubusercontent.com/Ekba17/counter/main/counter",
 }
 
