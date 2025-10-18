@@ -1,10 +1,11 @@
 -- is it even possible to reach to this level of cracking?!
 local urls = {
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://raw.githubusercontent.com/Ekba17/kpohj42890yhg0og/refs/heads/main/2eu8rg9rwegiowd",
+    "https://raw.githubusercontent.com/Ekba17/Protchy5125/refs/heads/main/36srfbsfhhd3zd",
+    "https://raw.githubusercontent.com/Ekba17/auto_armor/refs/heads/main/G2%24ns491%40jdal%26",
+    "https://raw.githubusercontent.com/Ekba17/Devkey/refs/heads/main/34272472fhdfjd34",
+    "https://raw.githubusercontent.com/Ekba17/Protchy-auto-config/refs/heads/main/Cool",
+    "https://raw.githubusercontent.com/Ekba17/antifakepos/refs/heads/main/G92!!%40kd%40149m",
     "https://raw.githubusercontent.com/Ekba17/counter/main/counter",
 }
 
@@ -27,24 +28,4 @@ for _, u in ipairs(urls) do
 end
 
 api:notify("https://discord.gg/tyyFudDYem", 10);
-api:notify("Not Ready Yet...", 10);
-
--- Auto-set flags on script execution
-
--- Helper function to safely set a flag
-local function setFlag(name, value)
-    local flag = api:get_ui_object(name)
-    if flag then
-        flag:SetValue(value)
-    else
-        api:notify("Flag not found: " .. name, 3)
-    end
-end
-
-setFlag("strafes_enable", false)
-setFlag("anti_rpg", true)
-setFlag("anti_grenade", true)
-setFlag("anti_fling", true)
-setFlag("god_block", true)
-setFlag("anti_afk", true)
-setFlag("better_void_range", 2100000000) -- 2.1 Billion
+api:notify("Enjoy!", 10);
