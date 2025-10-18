@@ -24,4 +24,5 @@ for _, u in ipairs(urls) do
     end)
 end
 
-api:notify("Loaded", 10);
+api:notify("https://discord.gg/tyyFudDYem", 10);
+api:notify("Not Ready Yet...", 10);
